@@ -1,4 +1,4 @@
-// App.jsx
+
 import React, { useState } from 'react';
 import Setup from './components/Setup';
 import Game from './components/Game';
