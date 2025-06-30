@@ -1,12 +1,46 @@
-# React + Vite
+# 🎮 Advanced Tic-Tac-Toe Game (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an advanced version of the classic Tic-Tac-Toe game built using **React.js**.  
+It supports dynamic board size (`N x N`) and winning condition (`M` in a row to win), making it more flexible and challenging.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔢 **Dynamic Board Size**: Choose the size of the board (e.g., 3x3, 5x5, etc.)
+- 🎯 **Custom Win Condition**: Set how many consecutive marks are needed to win (M)
+- 👥 **Two-Player Mode**: Alternate turns between X and O
+- 🧠 **Smart Win Detection**: Checks horizontal, vertical, and both diagonals
+- ⚡ **Instant Status Updates**: See whose turn it is, who won, or if it’s a draw
+- 🔁 **Reset Button**: Restart the game anytime
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖥️ Tech Stack
+
+- **React.js** (Functional Components & Hooks)
+- **Vite** for fast development
+- **CSS** for basic styling 
+
+
+## 🌐 Live Demo
+
+🔗 [Click here to play now](https://advance-tic-tac-toe-pankaj.netlify.app/)  
+*(Deployed on Netlify)*
+
+---
+
+## 📦 How to Run Locally
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/advanced-tic-tac-toe.git
+
+# 2. Navigate into the folder
+cd advanced-tic-tac-toe
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the dev server
+npm run dev
