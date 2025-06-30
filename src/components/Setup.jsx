@@ -1,4 +1,4 @@
-// components/Setup.jsx
+
 import React, { useState } from 'react';
 
 const Setup = ({ onStart }) => {
